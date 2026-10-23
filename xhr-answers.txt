@@ -1,0 +1,8 @@
+1. Difference between readyState and status:
+readyState shows the request progress, while status shows the server response code.
+
+2. How to make the request asynchronous:
+Set the third parameter of xhr.open() to true.
+
+3. Why is asynchronous communication recommended?
+It lets the webpage work while waiting for data without reloading.
